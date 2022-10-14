@@ -9,7 +9,12 @@ import java.security.SecureRandom;
 import java.util.HexFormat;
 
 /*
+Cifrado de clave privada o criptografia simétrica
 
+1.Alice y Bob se reunen para acordar una clave secreta
+2.Alice puede ahora utilizar la clave (simetrica,secreta,privada) para cifrar mensajes con un algoritmo de cifrado (Recomendado:AES)
+3.el texto cifrado se envia a Bob. de manera que los atacantes no pueden extraer el texto original desde el texto cifrado.
+4.bob descifra el texto cifrado con el algoritmo de cifrado con la misma clave secreta.
  */
 public class SymmetricMain {
 
